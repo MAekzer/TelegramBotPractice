@@ -45,7 +45,7 @@ namespace TelegramBotPractice.Controllers
                     var buttons = new List<InlineKeyboardButton[]>();
                     buttons.Add(new[]
                     {
-                        InlineKeyboardButton.WithCallbackData($" Подсчет символов в сообщении" , $"text"),
+                        InlineKeyboardButton.WithCallbackData($" Подсчет символов" , $"text"),
                         InlineKeyboardButton.WithCallbackData($" Подсчет суммы чисел" , $"num")
                     });
 
