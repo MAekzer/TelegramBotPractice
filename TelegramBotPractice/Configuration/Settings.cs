@@ -15,7 +15,7 @@ namespace TelegramBotPractice.Configuration
         {
             return new Settings
             {
-                BotToken = "5610717304:AAH7p4WnC-UmqOP7p6ZCu_9otXCKOqSZF5Q",
+                BotToken = "Bot_Token",
                 Commands = new string[] { "/start" }
             };
         }
