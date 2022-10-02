@@ -50,7 +50,7 @@ namespace TelegramBotPractice.Controllers
                     });
 
                     // передаем кнопки вместе с сообщением (параметр ReplyMarkup)
-                    await _telegramClient.SendTextMessageAsync(message.Chat.Id, $"<b>  Этот бот может посчитать количество символов или сумму чисел сообщении.</b> {Environment.NewLine}" +
+                    await _telegramClient.SendTextMessageAsync(message.Chat.Id, $"<b>  Этот бот может посчитать количество символов или сумму чисел в сообщении.</b> {Environment.NewLine}" +
                         $"{Environment.NewLine}Выберите, что из этого вы хотите использовать." +
                         $"{Environment.NewLine}", cancellationToken: ct, parseMode: ParseMode.Html, replyMarkup: new InlineKeyboardMarkup(buttons));
 
